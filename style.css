@@ -8,6 +8,7 @@ body, h1, p, form, fieldset, legend, label, section, footer {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('ggg.jpg');
+  background-size: cover;
   background-attachment: fixed;
   background-color: #f0f4f8;
   color: #333;
