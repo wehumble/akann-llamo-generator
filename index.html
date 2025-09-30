@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Akan Name Generator</h1>
+    <p>Enter your birthdate and select your gender to find your Akan name based on the day of the week you were born.</p>
+  </header>
+
+  <main>
+    <form id="akanForm">
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+
+      <fieldset>
+        <legend>Gender:</legend>
+        <label>
+          <input type="radio" name="gender" value="male" required> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female"> Female
+        </label>
+      </fieldset>
+
+      <button type="submit">Get Akan Name</button>
+    </form>
+
+    <section id="result" aria-live="polite">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Akan Name Finder</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
