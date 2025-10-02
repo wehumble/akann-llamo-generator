@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, p, form, fieldset, legend, label, section, footer {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   padding: 20px;
 }
 
-/* Layout */
+
 header, main, footer {
   max-width: 600px;
   margin: 0 auto;
@@ -66,7 +66,7 @@ button:hover {
   background-color: #005f46;
 }
 
-/* Result Styling */
+
 section#result {
   margin-top: 20px;
   background-color: #e6ffe6;
